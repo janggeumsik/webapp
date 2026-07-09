@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="새론심리상담코칭센터 로고">
+  <defs>
+    <linearGradient id="ringGrad" x1="20%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#3F5C43"/>
+      <stop offset="100%" stop-color="#8FAE7F"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3F5C43"/>
+      <stop offset="100%" stop-color="#9DBB8C"/>
+    </linearGradient>
+    <linearGradient id="handGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F6B54"/>
+      <stop offset="100%" stop-color="#3F5C43"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="68" fill="none" stroke="url(#ringGrad)"
+    stroke-width="13" stroke-linecap="round"
+    stroke-dasharray="300 128" stroke-dashoffset="-18"
+    transform="rotate(-38 100 100)"/>
+
+  <path d="M148 46 L152 56 L162 60 L152 64 L148 74 L144 64 L134 60 L144 56 Z" fill="#D8B26B"/>
+
+  <path d="M62 148 C62 132 78 126 100 126 C122 126 138 132 138 148
+           C138 156 122 162 100 162 C78 162 62 156 62 148 Z" fill="url(#handGrad)"/>
+
+  <rect x="97" y="82" width="6" height="48" rx="3" fill="url(#leafGrad)"/>
+
+  <ellipse cx="100" cy="70" rx="14" ry="18" fill="url(#leafGrad)"/>
+  <ellipse cx="82" cy="82" rx="11" ry="15" transform="rotate(-28 82 82)" fill="url(#leafGrad)"/>
+  <ellipse cx="118" cy="82" rx="11" ry="15" transform="rotate(28 118 82)" fill="url(#leafGrad)"/>
+  <ellipse cx="88" cy="102" rx="9" ry="13" transform="rotate(-18 88 102)" fill="url(#leafGrad)"/>
+  <ellipse cx="112" cy="102" rx="9" ry="13" transform="rotate(18 112 102)" fill="url(#leafGrad)"/>
+</svg>
