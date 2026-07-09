@@ -329,12 +329,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* Location */
-.location-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 56px;
-  align-items: center;
-}
+.location-info { max-width: 560px; }
 
 .location h2 { font-size: clamp(1.5rem, 3vw, 2rem); margin-top: 0; }
 
@@ -410,12 +405,9 @@ img { max-width: 100%; display: block; }
 
 /* Responsive */
 @media (max-width: 860px) {
-  .about-grid,
-  .location-grid {
+  .about-grid {
     grid-template-columns: 1fr;
   }
-
-  .location-map { order: -1; }
 }
 
 @media (max-width: 720px) {
