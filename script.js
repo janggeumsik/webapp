@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const contactForm = document.getElementById("contactForm");
-  const CENTER_EMAIL = "contact@example.com";
+  const CENTER_EMAIL = "yjunghee61@gmail.com";
 
   contactForm.addEventListener("submit", (event) => {
     event.preventDefault();

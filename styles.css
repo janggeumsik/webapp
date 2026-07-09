@@ -23,6 +23,7 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.7;
+  word-break: keep-all;
 }
 
 .container {
@@ -112,6 +113,7 @@ img { max-width: 100%; display: block; }
   line-height: 1.4;
   margin: 0 0 20px;
   color: var(--color-text);
+  word-break: keep-all;
 }
 
 .hero-desc {
@@ -220,10 +222,19 @@ img { max-width: 100%; display: block; }
 /* Services */
 .services { background: var(--color-surface); }
 
+.service-group-title {
+  font-size: 1.1rem;
+  color: var(--color-primary-dark);
+  margin: 40px 0 20px;
+}
+
+.service-group-title:first-of-type { margin-top: 0; }
+
 .service-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 24px;
+  margin-bottom: 8px;
 }
 
 .service-card {
@@ -253,6 +264,15 @@ img { max-width: 100%; display: block; }
 .service-price {
   font-weight: 700;
   margin: 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.service-price-note {
+  font-weight: 500;
+  font-size: 0.82rem;
+  color: var(--color-text-soft);
 }
 
 /* Location */
