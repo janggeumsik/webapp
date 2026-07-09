@@ -236,6 +236,14 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
 }
 
+.about-photo {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+}
+
 /* Core values */
 .values { padding: 0 0 88px; background: var(--color-bg); }
 
